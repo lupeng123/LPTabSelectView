@@ -18,7 +18,6 @@ class ViewController: UIViewController {
             "vc":[ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC()],
             ]
         let cfg = LPTabSelectViewCfg()
-        cfg.isUseLine = false;
         cfg.selectColor = UIColor.blue;
         let head = LPTabSelectView.init(frame: CGRect.init(x: 0, y: 64, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height-64), dataArr: dataArr, viewCfg: cfg, bgVC: self)
         self.view.addSubview(head)

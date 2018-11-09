@@ -29,7 +29,7 @@ class LPTabSelectViewCfg: NSObject {
     var lineColor:UIColor! = UIColor.init(hex: "FB4351");//线条颜色
     var selectColor:UIColor! = UIColor.init(hex: "FB4351");//标题选中颜色
     var normalColor:UIColor! = UIColor.init(hex: "333333");//标题默认颜色
-    var selectFont:CGFloat! = 20;//标题选中字号
+    var selectFont:CGFloat! = 17;//标题选中字号
     var normalFont:CGFloat! = 14;//标题默认字号
     var titleFont:UIFont! = UIFont.systemFont(ofSize: 14);//标题字体
     var titleBgColor:UIColor! = UIColor.init(hex: "fc4351");//isUseLine为false时选中背景色
