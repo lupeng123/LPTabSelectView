@@ -14,10 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let dataArr:[String : Any] = [
-            "title":["精选","每日爆款","内衣","影视","短视频","电影","杂货","数码","美妆","服饰",],
+            "title":["精选","每日爆款","内衣",],
             "vc":[ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC(),ListVC()],
             ]
         let cfg = LPTabSelectViewCfg()
+        cfg.isUseLine = false;
+        cfg.selectColor = UIColor.blue;
         let head = LPTabSelectView.init(frame: CGRect.init(x: 0, y: 64, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height-64), dataArr: dataArr, viewCfg: cfg, bgVC: self)
         self.view.addSubview(head)
     }
