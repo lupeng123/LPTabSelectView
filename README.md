@@ -1,5 +1,5 @@
 # LPTabSelectView
-tab选择器，多种头部排布样式
+tab渐变选择器，多种头部排布样式
 
 ###使用方法
 ```objc
