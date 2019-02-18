@@ -7,6 +7,7 @@ var isAutoDistance:Bool! = true;//自适应会根据minDistance的值，计算se
 var titleIsCenter:Bool! = false;//true的话会根据minDistance来设置间距，两边自适应,头部居中，headLeftInset，headRightInset无效
 var isUseLine:Bool! = true;//false的话不会有渐变效果，只有选中效果
 ```
+![image](blob:http://app.xunjiepdf.com/4f5a0138-0f0f-4b94-9eba-164e0c6ff390)
 ![image](https://wx1.sinaimg.cn/mw690/007bf79Yly1fx1zpxg6stj30ku1123zc.jpg)
 ![image](https://wx4.sinaimg.cn/mw690/007bf79Yly1fx1zpx9lb5j30ku112gma.jpg)
 ![image](https://wx2.sinaimg.cn/mw690/007bf79Yly1fx1zpw6giij30ku1120td.jpg)
