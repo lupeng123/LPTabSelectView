@@ -1,7 +1,7 @@
 # LPTabSelectView
 tab渐变选择器，多种头部排布样式（颜色渐变，大小渐变，红线蛇形渐变）
 
-###使用方法
+### 使用方法
 ```objc
 var isAutoDistance:Bool! = true;//自适应会根据minDistance的值，计算self.width小于字符串和间距总宽度则会滑动展示，大于则会根据self.width平分
 var titleIsCenter:Bool! = false;//true的话会根据minDistance来设置间距，两边自适应,头部居中，headLeftInset，headRightInset无效
