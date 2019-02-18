@@ -7,11 +7,17 @@ var isAutoDistance:Bool! = true;//自适应会根据minDistance的值，计算se
 var titleIsCenter:Bool! = false;//true的话会根据minDistance来设置间距，两边自适应,头部居中，headLeftInset，headRightInset无效
 var isUseLine:Bool! = true;//false的话不会有渐变效果，只有选中效果
 ```
+
 非scrollview效果
+
 ![image](https://github.com/lupeng123/LPImgUrlStore/blob/master/4.gif?raw=true)
+
 scrollview效果
+
 ![image](https://github.com/lupeng123/LPImgUrlStore/blob/master/5.gif?raw=true)
+
 其他样式
+
 ![image](https://github.com/lupeng123/LPImgUrlStore/blob/master/img/1.jpg?raw=true)
 ![image](https://github.com/lupeng123/LPImgUrlStore/blob/master/img/2.jpg?raw=true)
 ![image](https://github.com/lupeng123/LPImgUrlStore/blob/master/img/3.jpg?raw=true)
